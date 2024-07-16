@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+html{
+    font-size: 18px;
+    font-family: "Mulish", sans-serif;
+}
+*{
+    box-sizing: border-box;
+    padding: 0px ;
+    margin: 0px;
+}
+.size{
+    width: 80%;
+    margin: 40px auto;
+}
+.span{
+    
+    color: rgb(255, 84, 0);
+}
+.primary-color{
+    color: rgb(19, 19, 24);
+
+}
+.bold{
+    font-weight: 700;
+}
+.secondary-color{
+    color: rgb(66, 66, 71);
+}
+.primary-btn{
+    border-radius: 8px;
+background: rgb(255, 84, 0);
+width: 174px;
+height: 52px;
+border: none;
+padding: 16px;
+color: white;
+font-weight: 700;
+}
+/* nav-section */
+.nev-container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.nev-link ul{
+    
+display: flex;
+gap: 40px;
+}
+.nev-link li{
+    list-style: none;
+}
+.nev-link a{
+    text-decoration: none;
+    font-size: 1rem;
+
+}
+.logo{
+    display: flex;
+    gap: 20px;
+}
+.logo h3{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.menu{
+    width: 40px;
+    display: none;
+}
+.menu img{
+    width: 100%;
+}
+/* banner */
+
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%),
+     url("../images/Group\ 13\ \(1\)\ \(1\).png");
+     border-radius: ;
+     border-radius: 16px;
+     padding: 106px 185px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     gap: 40px;
+
+}
+.banner-container h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: white;
+
+}
+.banner-container p{
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+   
+}
+.option-btn{
+    border-radius: 8px;
+background: rgb(255, 255, 255);
+width: 174px;
+height: 52px;
+border: none;
+padding: 16px;
+
+}
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 8px;
+
+background: rgba(255, 255, 255, 0.3);
+padding: 20px;
+backdrop-filter: blur(2px);
+}
